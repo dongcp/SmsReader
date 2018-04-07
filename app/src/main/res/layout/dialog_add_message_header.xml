@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#123452"
+        android:gravity="center"
+        android:text="Add message header"
+        android:textColor="#ffffff"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/et_message_header"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_et_message_header"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:padding="10dp"/>
+</LinearLayout>
